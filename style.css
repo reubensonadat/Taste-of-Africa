@@ -12,6 +12,11 @@
             overflow-x: hidden;
         }
 
+        html {
+            scroll-behavior: smooth; 
+            scroll-padding-top: 70px;
+        }
+
         /* Sticky Navbar */
         .navbar {
             background: linear-gradient(to right, #1a1a1a, #0a0a0a);
